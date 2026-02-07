@@ -5,7 +5,7 @@ import { createClient } from '@supabase/supabase-js';
 const STORAGE_KEY = 'edilgest_pro_data';
 
 const SUPABASE_URL = 'https://fhjpazrloifriojbxnun.supabase.co'; 
-const SUPABASE_ANON_KEY = 'https://fhjpazrloifriojbxnun.supabase.co'; 
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZoanBhenJsb2lmcmlvamJ4bnVuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA0NjY0MTcsImV4cCI6MjA4NjA0MjQxN30.oqW0BFyrykTF2dmXRpcLhsVWBXLVCTfd4mfKaBZzQ2s'; 
 
 export const supabase = SUPABASE_URL && SUPABASE_ANON_KEY 
   ? createClient(SUPABASE_URL, SUPABASE_ANON_KEY) 
