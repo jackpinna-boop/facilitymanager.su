@@ -1,0 +1,7 @@
+{
+  "name": "EdilGest Pro_public_r0",
+  "description": "Un'applicazione professionale per la gestione completa di immobili, plessi, pertinenze e interventi di manutenzione con tracciabilità totale e dashboard analitica.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
